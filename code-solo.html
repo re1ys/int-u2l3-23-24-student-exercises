@@ -21,9 +21,14 @@
             padding: 20px;
             border: 3px solid #ccc;
         }
+      @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+
 
         /* This is a class selector - more on this next session! */
-        .wombat-image {
+        .wombat-image { animation: fadeIn 5s;
             /* 3. Change the value of max-width to 400px. */
             max-width: 400px;
             
